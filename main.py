@@ -78,5 +78,6 @@ def update_movie(movies_id : int , movie : MovieUpdate):
                 "message" : "Movie Update Successfully",
                 "Movies" : existing_movie
             }
+            
     raise HTTPException(status_code=404 , detail="Movie Not found")
             
